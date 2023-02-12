@@ -1,0 +1,43 @@
+// Menjalankan Docker
+   docker run -it
+// Melihat Container yang sedang berjalan
+   docker ps					| sh = shell
+// Container yang pernah di jalankan   
+   docker ps -a                     
+// MenStop Docker
+  docker container stop e92730201
+// Menjalankan container yang sudah di stop   
+  docker container start er98283737u
+// Untuk masuk kedalam container yang di jalankan / pernah di jalankan
+  docker exec -it er9299je99       
+// Untuk menghapus Container
+  docker rm eh387880290
+// Mengetahui Semua container yang pernah di download
+  docker images
+  
+  
+ 														// untuk koneksi ke local -p 1433:1433
+  
+  
+sudo docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=<YourStrong@Passw0rd>" \
+   -p 1433:1433 --name sql1 --hostname sql1 \
+   -d \
+   mcr.microsoft.com/mssql/server:2022-latest
+
+   
+
+
+
+
+
+// postgresql
+docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+
+
+//=======================================================================================================
+// 1   Docker container start 2bde4f84b9ca | untuk Menjalanjan Container yang telah di buat
+
+// 2. untuk masuk ke container  docker excec - it
+
+
+
